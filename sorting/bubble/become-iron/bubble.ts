@@ -4,14 +4,10 @@ export function bubbleSort(array: Array<string | number>): Array<string | number
     let sorted = true
 
     for (let i = 0; i < array.length - 1; i++) {
-      const item = array[i]
-      const nextItem = array[i + 1]
-
-      if (item > nextItem) {
+      if (array[i] > array[i + 1]) {
         sorted = false
-        // swap items
-        array[i] = nextItem
-        array[i + 1] = item
+        array[i] = array[i + 1]
+        array[i + 1] = array[i]
       }
     }
 
