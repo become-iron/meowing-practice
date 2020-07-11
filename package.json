@@ -1,0 +1,20 @@
+{
+  "name": "meowing-practice",
+  "description": "",
+  "license": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/become-iron/meowing-practice.git"
+  },
+  "homepage": "https://github.com/become-iron/meowing-practice#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.6"
+  }
+}
