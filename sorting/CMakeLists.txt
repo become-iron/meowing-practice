@@ -1,3 +1,3 @@
-add_executable(Sorting test.cpp)
+add_library(Sorting INTERFACE)
 
-target_include_directories(Sorting PUBLIC "helpers" "qsort" "bubble" "selection" "merge")
+target_include_directories(Sorting INTERFACE include)
