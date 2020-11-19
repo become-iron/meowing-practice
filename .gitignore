@@ -25,3 +25,5 @@ yarn-error.log*
 *.js
 
 !.eslintrc.js
+
+CMakeLists.txt.user
